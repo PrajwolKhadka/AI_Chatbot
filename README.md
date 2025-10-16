@@ -44,44 +44,19 @@ Unlike basic chatbot scripts, this system **remembers previous sessions**, **han
 | Config | `python-dotenv` |
 | Storage | JSON-based persistent memory |
 
----
 
-## 🚀 Setup & Installation
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/PrajwolKhadka/AI_Chatbot.git
-cd gemini-chat-manager
-2️⃣ Install dependencies
-bash
-Copy code
-3️⃣ Add your API key
-Create a .env file in the root directory:
-
-ini
-Copy code
-GEMINI_API_KEY=your_api_key_here
-4️⃣ Run the chatbot test
-bash
-Copy code
-python chatbot.py
 🧪 Example Run
 Session 1:
 
-arduino
-Copy code
 USER: Please remember this random word: ZEBRA
 AI: Got it! I’ll remember the word “ZEBRA” for you. 🦓
 Session 2:
 
-vbnet
-Copy code
 USER: What was the random word I asked you to remember?
 AI: You asked me to remember “ZEBRA”. Still got it in memory!
 Output:
 
-csharp
-Copy code
+
 [HISTORY] Successfully loaded conversation history
 [PERSONA SWITCH] Persona changed to 'friendly'.
 [TOKEN TRACKER] Tokens used: 624
