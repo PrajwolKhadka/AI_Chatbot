@@ -55,7 +55,6 @@ cd gemini-chat-manager
 2️⃣ Install dependencies
 bash
 Copy code
-pip install -r requirements.txt
 3️⃣ Add your API key
 Create a .env file in the root directory:
 
@@ -65,7 +64,7 @@ GEMINI_API_KEY=your_api_key_here
 4️⃣ Run the chatbot test
 bash
 Copy code
-python chat_manager.py
+python chatbot.py
 🧪 Example Run
 Session 1:
 
